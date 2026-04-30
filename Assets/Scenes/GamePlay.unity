@@ -756,7 +756,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 7
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2822,7 +2822,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -2885,6 +2885,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2013462166}
     m_Modifications:
+    - target: {fileID: 3322342411888057544, guid: 03d2afacae419ce48bf637460151e905, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -1535.7281
+      objectReference: {fileID: 0}
+    - target: {fileID: 3322342411888057544, guid: 03d2afacae419ce48bf637460151e905, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -605.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 3322342411888057544, guid: 03d2afacae419ce48bf637460151e905, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3322342411888057544, guid: 03d2afacae419ce48bf637460151e905, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3322342411888057544, guid: 03d2afacae419ce48bf637460151e905, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 475.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3322342411888057544, guid: 03d2afacae419ce48bf637460151e905, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -171
+      objectReference: {fileID: 0}
+    - target: {fileID: 3322342411888057544, guid: 03d2afacae419ce48bf637460151e905, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6513938876199328545, guid: 03d2afacae419ce48bf637460151e905, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6771417282827999108, guid: 03d2afacae419ce48bf637460151e905, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2964,6 +2996,14 @@ PrefabInstance:
     - target: {fileID: 6771417282827999108, guid: 03d2afacae419ce48bf637460151e905, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7351884961881001855, guid: 03d2afacae419ce48bf637460151e905, type: 3}
+      propertyPath: m_UseSpriteMesh
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7351884961881001855, guid: 03d2afacae419ce48bf637460151e905, type: 3}
+      propertyPath: m_PreserveAspect
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8699528794368764665, guid: 03d2afacae419ce48bf637460151e905, type: 3}
       propertyPath: m_Name
