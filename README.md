@@ -21,10 +21,17 @@ This project is a simple slot machine game developed in Unity. It demonstrates r
 
 ---
 
+## Live Demo
+
+https://v0th0.github.io/Unity-Slot-Machine-Game/
+
+---
+
 ## How to Run (WebGL)
 
-1. Open the `Build/WebGL` folder
-2. Run the `index.html` file in a browser
+Open the live demo link above in a browser.
+
+Note: Opening `index.html` directly may not work due to browser restrictions.
 
 ---
 
@@ -39,13 +46,10 @@ This project is a simple slot machine game developed in Unity. It demonstrates r
 
 ## Approach
 
-The project is structured using separate components:
+The project follows a modular structure:
 
 * GameManager controls the game flow and spin sequence
 * ReelController handles reel movement and alignment
 * WinManager manages win conditions, payouts, and UI feedback
 
 The system is designed to be simple, modular, and easy to extend.
-
----
-
