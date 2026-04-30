@@ -5,6 +5,7 @@ public class GameManager : MonoBehaviour
 {
     public ReelController[] reels;
     public Animator leverAnimator;
+    public WinManager winManager; 
 
     bool isSpinning = false;
 
@@ -48,20 +49,9 @@ public class GameManager : MonoBehaviour
             results[i] = reels[i].GetResult();
         }
 
-        CheckWin(results);
+        // ⭐ USE WIN MANAGER
+        winManager.Evaluate(results);
 
         isSpinning = false;
-    }
-
-    void CheckWin(int[] r)
-    {
-        if (r[0] == r[1] && r[1] == r[2])
-        {
-            Debug.Log("🎉 WIN!");
-        }
-        else
-        {
-            Debug.Log("❌ TRY AGAIN");
-        }
     }
 }
